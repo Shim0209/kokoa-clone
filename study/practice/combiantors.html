@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span {
+            color: tomato;
+            background-color: yellowgreen;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        input:focus {
+            background-color: tomato;
+        }
+
+        div>span {
+            text-decoration: underline;
+        }
+
+        p span {
+            color: aqua;
+        }
+
+        p+span {
+            color: blue;
+        }
+
+        p~span {
+            color: chartreuse;
+        }
+
+        input:required {
+            border-color: tomato;
+        }
+
+        input[type="text"] {
+            border-color: blue;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        a:hover {
+            color: teal;
+        }
+
+        a:focus {
+            color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <span>hello</span>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestiae quaerat rerum earum natus voluptas
+            quis eaque doloribus! Dolore inventore vel nostrum minus? Ea sapiente inventore, expedita repudiandae
+            dignissimos non.<span>inside</span>
+        </p>
+        <address>address</address>
+        <span>last</span>
+        <br />
+        <input type="text" placeholder="username" />
+        <input type="password" required placeholder="password" />
+        <a href="https://google.com">Go to Google</a>
+    </div>
+</body>
+
+</html>
