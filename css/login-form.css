@@ -31,7 +31,7 @@
 #login-form input:nth-child(n+3) {
     font-size: 18px;
     border-radius: 5px;
-    background-color: var(--yellow);
+    background-color: var(--default-color);
 }
 
 #login-form input:nth-child(4) {
