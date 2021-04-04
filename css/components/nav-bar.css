@@ -1,0 +1,38 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__btn {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    bottom: 11px;
+    right: 38px;
+}
+
+.nav__btn:nth-child(2) {
+    position: relative;
+}
