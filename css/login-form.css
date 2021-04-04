@@ -25,7 +25,7 @@
 }
 
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: var(--default-color);
 }
 
 #login-form input:nth-child(n+3) {
