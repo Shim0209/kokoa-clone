@@ -64,6 +64,12 @@
 .user-component__subtitle {
     font-size: 15px;
     opacity: 0.5;
+    display: flex;
+}
+
+.user-component__subtitle i {
+    margin-left: 10px;
+    color: red;
 }
 
 .user-component__time {
