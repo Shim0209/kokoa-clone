@@ -1,0 +1,10 @@
+.boundary-line {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.6;
+    font-size: 15px;
+    border-top: 1px solid rgba(220, 220, 220, 1);
+    margin: 20px 0px 10px 0px;
+    padding: 15px 0px;
+}
+

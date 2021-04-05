@@ -1,0 +1,32 @@
+.find-icons {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.find-icons__icon {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.find-icons__icon i {
+    font-size: 35px;
+}
+
+.find-icons__icon span {
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.boundary-line:last-child div span {
+    margin-right: 5px;
+}
+
+.recommended-friends-info {
+    text-align: center;
+    margin: 110px 0px;
+    opacity: 0.6;
+}
