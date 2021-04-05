@@ -10,8 +10,8 @@
 .user-component__column:first-child {
     width: 90%;
     display: flex;
-}
-
+} 
+ 
 .user-component__column:last-child {
     width: 10%;
     text-align: end;
@@ -59,18 +59,6 @@
 .user-component__subtitle {
     font-size: 15px;
     opacity: 0.5;
-}
-
-.user-component__notification {
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    color: white;
-    font-weight: 600;
 }
 
 .user-component__time {
