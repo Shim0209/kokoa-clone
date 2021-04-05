@@ -10,7 +10,7 @@
     opacity: 0.2;
 }
 
-.friends-screen__channel {
+.main-screen__channel {
     display: flex;
     justify-content: space-between;
     opacity: 0.6;

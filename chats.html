@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frineds - Kokoa Clone</title>
+    <title>Chats - Kokoa Clone</title>
 </head>
 
 <body>
@@ -28,49 +28,27 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Chats</h1>
         <div class="screen-header__icons">
             <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-comment-medical fa-lg"></i></span>
             <span><i class="fas fa-music fa-lg"></i></span>
             <span><i class="fas fa-cog fa-lg"></i></span>
         </div>
     </header>
 
-    <a href="#" id="friends-display-link">
-        <i class="fas fa-info-circle"></i>
-        Friends' Names Display
-        <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-
     <main class="main-screen">
         <div class="user-component">
             <div class="user-component__column">
-                <img src="img/user-profile.jpg" alt="user-avatar"
-                    class="user-component__avatar user-component__avatar--xl">
+                <img src="img/user-profile.jpg" alt="user-avatar" class="user-component__avatar">
                 <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--xl">ShimYS</h4>
-                    <!--<h6 class="user-component__subtitle">Hi, guys!! I'm ShimYS</h6>-->
+                    <h4 class="user-component__title">ShimYS</h4>
+                    <h6 class="user-component__subtitle">Hi, guys!! I'm ShimYS</h6>
                 </div>
             </div>
-            <div class="user-component__column"></div>
-        </div>
-
-        <div class="main-screen__channel">
-            <span>Channel</span>
-            <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
-
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="img/user-profile.jpg" alt="user-avatar"
-                    class="user-component__avatar user-component__avatar--sm">
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--sm">Channel</h4>
-                </div>
-            </div>
-            <div class="user-component__column">
-                <span>2</span>
-                <i class="fas fa-chevron-right fa-xs"></i>
+            <div class="user-component__column user-component__chat">
+                <span class="user-component__time">21:22</span>
+                <span class="user-component__notification">1</span>
             </div>
         </div>
     </main>
