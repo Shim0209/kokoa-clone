@@ -9,6 +9,7 @@
 @import "components/notification.css";
 @import "components/dot.css";
 @import "components/boundary-line.css";
+@import "components/icon-raw.css";
 
 /* Screens */
 @import "screens/login.css";

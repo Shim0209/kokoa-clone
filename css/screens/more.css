@@ -1,3 +1,31 @@
 .user-component__square-down {
     font-size: 35px;
 }
+
+.more-boundary-line {
+    opacity: 1;
+    font-weight: 600;
+}
+
+.more-suggestions {
+    display: flex;
+}
+
+.more-suggestions__icon{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon span {
+    font-size: 16px;
+    opacity: 0.6;
+}
