@@ -1,0 +1,41 @@
+.settings-setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 0px;
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.1);
+}
+
+.settings__column i {
+    font-size: 25px;
+    padding: 0px 10px;
+}
+
+.settings__title {
+    font-size: 23px;
+    font-weight: 400;
+    padding: 0px 10px;
+}
+
+.settings-boundary-line {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 1px;
+    margin: 15px 0px;
+}
+
+.settings__subtitle {
+    opacity: 0.5;
+}
+
+.settings__notification {
+    background-color: tomato;
+    padding: 2px 5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.main-screen .settings-setting:last-child {
+    border-bottom: none;
+}

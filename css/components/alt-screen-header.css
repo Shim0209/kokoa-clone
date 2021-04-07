@@ -1,0 +1,20 @@
+.alt-screen-header {
+    display: flex;
+    padding: 50px var(--holizontal-space) var(--holizontal-space) var(--holizontal-space);
+    align-items: center;
+}
+
+.alt-screen-header__icons {
+    width: 33.33%;
+}
+
+.alt-screen-header__icons:last-child {
+    text-align: end;
+}
+
+.alt-screen-header__title {
+    width: 33.33%;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
