@@ -11,6 +11,9 @@
 .alt-screen-header__icons:last-child {
     text-align: end;
 }
+.alt-screen-header__icons:last-child i:last-child {
+    margin-left: 25px;
+}
 
 .alt-screen-header__title {
     width: 33.33%;
