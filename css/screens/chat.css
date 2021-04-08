@@ -78,3 +78,90 @@
     display: flex;
     align-items: flex-end;
 }
+
+.message-row--own {
+    justify-content: flex-end;
+    
+}
+
+
+.message-row--own .message__bubble {
+    background-color: var(--default-color);
+    order: 1;
+    /* order옵션은 flex children에게만 적용된다.*/
+    margin-right: 0px;
+    margin-left: 5px;
+    border-radius: 12px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.message-row--own .message-time {
+    order: 0;
+}
+
+.reply {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.reply .reply__column:first-child {
+    width: 8%;
+}
+
+.reply .reply__column:last-child {
+    width: 92%;
+    position: relative;
+}
+
+.reply input {
+    height: 30px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.reply i {
+    opacity: 0.6;
+}
+
+.reply__column:last-child i,
+.reply__column:last-child button,
+.reply__column:last-child button i {
+    position: absolute;
+    right: 3px;
+    top: 2px;
+}
+
+.reply__column:last-child > i {
+    right: 40px;
+    top: 9px;
+}
+
+.reply__column:last-child button {
+    width: 30px;
+    height: 30px;
+    background-color:var(--default-color);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.reply__column:last-child button i {
+    top: 9px;
+    right: 7px;
+    opacity: 1;
+}
