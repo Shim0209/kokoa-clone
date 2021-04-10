@@ -11,6 +11,19 @@
     font-size: 32px;
 }
 
+#no-mobile__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#no-mobile__text p {
+    opacity: 0.7;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 520px) {
     #no-mobile {
         display: none;
