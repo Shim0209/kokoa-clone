@@ -12,6 +12,7 @@
 @import "components/boundary-line.css";
 @import "components/icon-raw.css";
 @import "components/settings.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
