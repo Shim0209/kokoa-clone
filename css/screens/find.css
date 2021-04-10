@@ -48,7 +48,7 @@
     width: 1px;
     height: 10px;
     margin: 0 5px;
-    background-color:rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .open-post__member-status {
@@ -77,8 +77,8 @@
     position: absolute;
     bottom: 10px;
     right: 8px;
-    background-color:rgba(0, 0, 0, 0.5);
-    color:white;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     font-size: 13px;
     padding: 4px 10px;
     border-radius: 10px;
@@ -91,4 +91,26 @@
     font-size: 15px;
     border-top: 1px solid rgba(220, 220, 220, 1);
     margin: 12px 0;
+}
+
+@keyframes heartBeat {
+    0% {
+        color: white;
+        transform: none;
+    }
+
+    50% {
+        color: tomato;
+        transform: scale(2);
+    }
+
+    100% {
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 0.5s linear infinite;
 }
