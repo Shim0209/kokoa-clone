@@ -38,4 +38,5 @@
 
 .main-screen .settings-setting:last-child {
     border-bottom: none;
+    margin-bottom: 60px;
 }
